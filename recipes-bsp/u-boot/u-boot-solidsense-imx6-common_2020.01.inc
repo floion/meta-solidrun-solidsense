@@ -12,7 +12,7 @@ PROVIDES += "u-boot"
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 SRC_URI = " \
-    git://github.com/u-boot/u-boot.git \
+    git://github.com/u-boot/u-boot.git;protocol=https \
 "
 
 DEPENDS = " \
