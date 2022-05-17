@@ -8,7 +8,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI = " \
     file://gpl-2.0.txt \
-    git://github.com/SolidRun/SolidSense-V1.git;branch=V1.2.1;destsuffix=SolidSense-V1;name=SolidSense-V1;protocol=https \
+    git://github.com/SolidRun/SolidSense-V1.git;branch=master;destsuffix=SolidSense-V1;name=SolidSense-V1;protocol=https \
 "
 SRCREV_SolidSense-V1 = "628fa848971ded2e2ad028b2c8a1b4b49e86eadc"
 S-V1 = "${WORKDIR}/SolidSense-V1"
