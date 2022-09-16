@@ -17,6 +17,6 @@ do_install () {
     install -m 0644 ${S}/initscripts/TIInit_${PV}.bts ${D}${base_libdir}/firmware/ti-connectivity
 }
 
-FILES_${PN} = "${base_libdir}/firmware/ti-connectivity/*"
+FILES:${PN} = "${base_libdir}/firmware/ti-connectivity/*"
 
 COMPATIBLE_MACHINE = "solidrun-n6g"

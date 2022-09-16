@@ -10,7 +10,7 @@ inherit resin-u-boot
 
 PROVIDES += "u-boot"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 SRC_URI = " \
     git://github.com/u-boot/u-boot.git \
 "

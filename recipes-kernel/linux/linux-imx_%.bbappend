@@ -1,5 +1,5 @@
 inherit kernel-resin
-FILESEXTRAPATHS_prepend := "${THISDIR}/linux-imx:"
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-imx:"
 
 SRC_URI += " \
     file://0001-update-dts-for-solidsense.patch \
